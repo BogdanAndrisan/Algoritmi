@@ -27,9 +27,9 @@ int main()
 
 	for (int i = 0; i < n; i++)
 	{
-		printf_s("a(%d)=", i); scanf_s(" %d", a + i);
-		printf_s("b(%d)=", i); scanf_s(" %d", b + i);
-		PS = PS + *(a + i) * *(b + i);
+		printf_s("a(%d)=", i); scanf_s(" %d", &a[i]);
+		printf_s("b(%d)=", i); scanf_s(" %d", &b[i]);
+		PS = PS + a[i] * b[i];
 	}
 	printf("Produsul Scalar este: %d", PS);
 
