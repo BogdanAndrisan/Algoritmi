@@ -20,15 +20,15 @@ using namespace std;
 int main()
 {
 	int n,PS=0;
-	printf_s("Marimea lui n: "); scanf_s(" %d", &n);
+	printf_s("Marimea lui n: "); scanf_s("%d", &n);
 
 	int *a = (int*)malloc(n * sizeof(int));
 	int *b = (int*)malloc(n * sizeof(int));
 
 	for (int i = 0; i < n; i++)
 	{
-		printf_s("a(%d)=", i); scanf_s(" %d", &a[i]);
-		printf_s("b(%d)=", i); scanf_s(" %d", &b[i]);
+		printf_s("a(%d)=", i); scanf_s("%d", &a[i]);
+		printf_s("b(%d)=", i); scanf_s("%d", &b[i]);
 		PS = PS + a[i] * b[i];
 	}
 	printf("Produsul Scalar este: %d", PS);
