@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cautare", "Cautare\Cautare.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Produs Scalar", "Produs Scalar\Produs Scalar.vcxproj", "{95990755-4E65-4F96-9D87-06B7C3900B2B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CautareSortatCrescator", "CautareSortatCrescator\CautareSortatCrescator.vcxproj", "{60CAA019-6295-4BE6-A8E8-3032825FD47E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{95990755-4E65-4F96-9D87-06B7C3900B2B}.Release|x64.Build.0 = Release|x64
 		{95990755-4E65-4F96-9D87-06B7C3900B2B}.Release|x86.ActiveCfg = Release|Win32
 		{95990755-4E65-4F96-9D87-06B7C3900B2B}.Release|x86.Build.0 = Release|Win32
+		{60CAA019-6295-4BE6-A8E8-3032825FD47E}.Debug|x64.ActiveCfg = Debug|x64
+		{60CAA019-6295-4BE6-A8E8-3032825FD47E}.Debug|x64.Build.0 = Debug|x64
+		{60CAA019-6295-4BE6-A8E8-3032825FD47E}.Debug|x86.ActiveCfg = Debug|Win32
+		{60CAA019-6295-4BE6-A8E8-3032825FD47E}.Debug|x86.Build.0 = Debug|Win32
+		{60CAA019-6295-4BE6-A8E8-3032825FD47E}.Release|x64.ActiveCfg = Release|x64
+		{60CAA019-6295-4BE6-A8E8-3032825FD47E}.Release|x64.Build.0 = Release|x64
+		{60CAA019-6295-4BE6-A8E8-3032825FD47E}.Release|x86.ActiveCfg = Release|Win32
+		{60CAA019-6295-4BE6-A8E8-3032825FD47E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
