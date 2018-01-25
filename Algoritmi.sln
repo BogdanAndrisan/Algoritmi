@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cautare Sir Sortat Crescato
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minim", "Minim\Minim.vcxproj", "{2D3C7E8B-7B8E-4EC4-A42C-3DD2D8F4280D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Contor Minim", "Contor Minim\Contor Minim.vcxproj", "{BB072599-2FAF-47CB-B59D-5F75DC8BA6C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{2D3C7E8B-7B8E-4EC4-A42C-3DD2D8F4280D}.Release|x64.Build.0 = Release|x64
 		{2D3C7E8B-7B8E-4EC4-A42C-3DD2D8F4280D}.Release|x86.ActiveCfg = Release|Win32
 		{2D3C7E8B-7B8E-4EC4-A42C-3DD2D8F4280D}.Release|x86.Build.0 = Release|Win32
+		{BB072599-2FAF-47CB-B59D-5F75DC8BA6C4}.Debug|x64.ActiveCfg = Debug|x64
+		{BB072599-2FAF-47CB-B59D-5F75DC8BA6C4}.Debug|x64.Build.0 = Debug|x64
+		{BB072599-2FAF-47CB-B59D-5F75DC8BA6C4}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB072599-2FAF-47CB-B59D-5F75DC8BA6C4}.Debug|x86.Build.0 = Debug|Win32
+		{BB072599-2FAF-47CB-B59D-5F75DC8BA6C4}.Release|x64.ActiveCfg = Release|x64
+		{BB072599-2FAF-47CB-B59D-5F75DC8BA6C4}.Release|x64.Build.0 = Release|x64
+		{BB072599-2FAF-47CB-B59D-5F75DC8BA6C4}.Release|x86.ActiveCfg = Release|Win32
+		{BB072599-2FAF-47CB-B59D-5F75DC8BA6C4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
