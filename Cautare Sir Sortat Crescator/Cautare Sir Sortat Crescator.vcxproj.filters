@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CautareSortatCrescator.cpp">
+    <ClCompile Include="Cautare Sir Sortat Crescator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

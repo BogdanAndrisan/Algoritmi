@@ -16,7 +16,7 @@ START Cautare
 	daca gasit = adevarat atunci
 		Scrie("S-a gasit", x, "pe pozitia", poz)
 	altfel
-	Scrie(x,"nu a fost gasit")
+		Scrie(x,"nu a fost gasit")
 	sfarsit daca
 STOP
 */
@@ -50,7 +50,7 @@ int main()
 		{
 			i = i + 1;
 		}
-	} while (i < n && gasit == false && x<a[i]);
+	} while (i < n && gasit == false && x<=a[i]);
 
 	if (gasit == true)
 	{
