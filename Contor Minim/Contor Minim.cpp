@@ -49,5 +49,6 @@ int main()
 	printf_s(" si apare de %d ori", contor);
 	getchar();
 	getchar();
+	free(a);
 	return 0;
 }
