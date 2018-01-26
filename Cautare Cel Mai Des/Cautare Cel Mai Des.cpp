@@ -60,7 +60,7 @@ int CautaLiniar(int x,int *v,int l)
 		{
 			i = i + 1;
 		}
-	} while (i < l && gasit == false);
+	} while (i <= l && gasit == false);
 	return pozitie;
 }
 
@@ -71,28 +71,27 @@ int main()
 	a = (int*)malloc(n * sizeof(int));
 	diferite = (int*)malloc(n * sizeof(int));
 	contor = (int*)malloc(n * sizeof(int));
-	a = new int[n];
 	for (int i = 0; i < n; i++)
 	{
 		printf_s("a(%d)=", i); scanf_s("%d", &a[i]);
 	}
 	for (int i = 0; i < n; i++)
 	{
-		int PozInDif = CautaLiniar(a[i], a, k);
+		int PozInDif = CautaLiniar(a[i], diferite, k);
 		if (PozInDif == 0)
 		{
+			k = k + 1;
 			diferite[k] = a[i];
 			contor[k] = 1;
-			k = k + 1;
 		}
 		else
 		{
 			contor[PozInDif] = contor[PozInDif] + 1;
 		}
 	}
-	int maximAparitii = contor[0];
-	int pozMax = 0;
-	for (int i = 1; i < k; i++)
+	int maximAparitii = contor[1];
+	int pozMax = 1;
+	for (int i = 1; i <= k; i++)
 	{
 		if (contor[i] > maximAparitii)
 		{
@@ -101,7 +100,10 @@ int main()
 		}
 	}
 	printf_s("Numarul cel mai frecvent %d apare de %d ori.", diferite[pozMax], maximAparitii);
-
+	for (int i = 0; i < n; i++)
+	{
+		printf("\na(%d)=%d, diferite(%d)=%d, contor(%d)=%d", i, a[i], i, diferite[i], i, contor[i]);
+	}
 	getchar();
 	getchar();
 	return 0;
