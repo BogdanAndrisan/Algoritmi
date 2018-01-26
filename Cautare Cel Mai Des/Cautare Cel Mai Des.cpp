@@ -40,7 +40,6 @@ Start CelMaiDes
 	Scrie (‘Apare de ’, maximAparitii, ‘ ori’ )
 Stop
 */
-
 #include <stdio.h>
 #include <stdlib.h>
 
