@@ -37,21 +37,23 @@ Return
 */
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
-void scrie(int *x, int n)
+void Scrie(int *x, int n)
 {
 	for (int i = 0; i < n; i++)
 	{
 		printf_s(" %d ", x[i]);
 	}
+	printf_s("\n");
 }
 
 bool DispunereCorecta(int *x, int k)
 {
 	bool corect = true;
-	for (int i = 0; i < k-1; i++)
+	for (int i = 0; i < k; i++)
 	{
-		if (x[k] == x[i] || x[k] - x[i] == k - i)
+		if ((x[k] == x[i]) || (abs(x[k] - x[i]) == (k - i)))
 		{
 			corect = false;
 		}
@@ -61,18 +63,19 @@ bool DispunereCorecta(int *x, int k)
 
 int main()
 {
-	int n = 4;
-	int *x = (int*)malloc((n*n) * sizeof(int));
+	int n;
+	printf_s("Nr. Dame(marime tabla):"); scanf_s("%d", &n);
+	int *x = (int*)malloc((n) * sizeof(int));
 	for (int i = 0; i < n; i++)
 	{
 		x[i] = 0;
 	}
-	int k = 1;
-	while (k > 0)
+	int k = 0;
+	while (k >= 0)
 	{
-		if (k = n + 1)
+		if (k == n)
 		{
-			scrie(x,n);
+			Scrie(x, n);
 			k = k - 1;
 		}
 		else
@@ -92,4 +95,5 @@ int main()
 			}
 		}
 	}
+	getchar();
 }
